@@ -18,7 +18,7 @@ const UserList = () => {
       
            const userData =  JSON.parse(localStorage.getItem('userInfo'))
         
-         const response = await axios.get('http://localhost:5500/api/admin-user-list')
+         const response = await axios.get('https://dream-house-deal-backend.onrender.com/api/admin-user-list')
            if(response?.data?.code==200){
           setData(response?.data?.data)
         }
@@ -58,7 +58,7 @@ const UserList = () => {
          <td> {item?.email}  </td>
          <td> {item?.contact}   </td>
         <td>{item?.address}    </td> 
-       <td><img   height="60" width="100" src={`http://localhost:5500/img/${item?.profile}`} alt=''/>    </td>
+       <td><img   height="60" width="100" src={`https://dream-house-deal-backend.onrender.com/img/${item?.profile}`} alt=''/>    </td>
     </tr>
     )
      

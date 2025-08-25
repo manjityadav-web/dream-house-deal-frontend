@@ -74,7 +74,7 @@ const adminProfile = () => {
     formdata.append('profile', data?.profile[0])
     formdata.append('userId', userData?._id)
 
-    const result = await axios.put('http://localhost:5500/api/admin-update', formdata, {
+    const result = await axios.put('https://dream-house-deal-backend.onrender.com/api/admin-update', formdata, {
       headers: {
         "Content-Type": "multipart/form-data"
       }
@@ -112,7 +112,7 @@ return (
      <div className='profile'>
        
         <div className='profile-img'>
-          <img src={`http://localhost:5500/img/${data?.profile}`} alt="" className='img-fluid'/>
+          <img src={`https://dream-house-deal-backend.onrender.com/img/${data?.profile}`} alt="" className='img-fluid'/>
         </div>
          <div className='user-data'>
           

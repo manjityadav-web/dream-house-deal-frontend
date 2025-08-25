@@ -19,7 +19,7 @@ const UserBoughtList = () => {
     const usersData = JSON.parse(localStorage.getItem('userInfo'));
 
 
-    const response = await axios.post('http://localhost:5500/api/user-bought-list', {
+    const response = await axios.post('https://dream-house-deal-backend.onrender.com/api/user-bought-list', {
       userId: usersData?._id
 
     })
@@ -64,7 +64,7 @@ const UserBoughtList = () => {
                     <td>{item?.area}</td>
                     <td>{item?.location}</td>
                     <td>{item?.description}</td>
-                    <td><img height="60" width="100" src={`http://localhost:5500/img/${item?.pic}`} /></td>
+                    <td><img height="60" width="100" src={`https://dream-house-deal-backend.onrender.com/img/${item?.pic}`} /></td>
                   </tr>)
 
                 })}

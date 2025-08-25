@@ -30,7 +30,7 @@ const ContactUs = () => {
 
    const handleContact =  async(data)=>{
 
-   const result =  await axios.post('http://localhost:5500/api/send-contact',data)
+   const result =  await axios.post('https://dream-house-deal-backend.onrender.com/api/send-contact',data)
 
      if(result?.data?.code==200){
             swal.fire({

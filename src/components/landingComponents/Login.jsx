@@ -42,7 +42,7 @@ const Login = () => {
     })
 
     const handleLogin = async(data)=>{
-      const response = await axios.post('http://localhost:5500/api/login',data);
+      const response = await axios.post('https://dream-house-deal-backend.onrender.com/api/login',data);
       console.log(response);
       
       if(response.data.code==200){

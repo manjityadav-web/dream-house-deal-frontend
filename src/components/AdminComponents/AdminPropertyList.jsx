@@ -23,7 +23,7 @@ const AdminPropertyList = () => {
   ,[])
 
         const fetchList = async()=>{
-          const result = await axios.get('http://localhost:5500/api/property-list')
+          const result = await axios.get('https://dream-house-deal-backend.onrender.com/api/property-list')
 
           
           if(result?.data?.code==200){
@@ -79,7 +79,7 @@ const AdminPropertyList = () => {
                  return (
                      <div className="propertyCard" key={index}>
                        <div className="imgContainer">
-                         <img src={`http://localhost:5500/img/${data.pic}`} />
+                         <img src={`https://dream-house-deal-backend.onrender.com/img/${data.pic}`} />
                        </div>
                        <div className="propertyInfo">
                          <span className="fs-5">  <RiMoneyRupeeCircleFill className="mb-1"/>{data?.price}</span>

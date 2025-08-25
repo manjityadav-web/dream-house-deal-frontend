@@ -49,7 +49,7 @@ const AddProperty = () => {
   
     
     
-    const response = await axios.post('http://localhost:5500/api/add-property', formData, {
+    const response = await axios.post('https://dream-house-deal-backend.onrender.com/api/add-property', formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }

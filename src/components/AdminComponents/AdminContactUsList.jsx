@@ -20,7 +20,7 @@ const[data, setData]= useState([])
 
   const fetchData = async()=>{
 
-        const result = await axios.get('http://localhost:5500/api/contact-list')
+        const result = await axios.get('https://dream-house-deal-backend.onrender.com/api/contact-list')
 
          if(result?.data?.code==200){
           setData(result?.data?.data)
@@ -35,7 +35,7 @@ const[data, setData]= useState([])
 
   const handleDeleteMessage = async(email)=>{
 
-    const response = await axios.post('http://localhost:5500/api/delete-contact', {email});
+    const response = await axios.post('https://dream-house-deal-backend.onrender.com/api/delete-contact', {email});
         if (response?.data?.code == 200) {
           Swal.fire({
             title: "Delete Property.",
