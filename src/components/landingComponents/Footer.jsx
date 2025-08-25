@@ -42,24 +42,18 @@ const Footer = () => {
             <p><a href="">Term & Condition</a></p>
             <p><a href="">Promotion</a></p>
           </div>
-          {/* <div className="col1">
-            <h3 className='text-light pb-3'>Customer</h3>
-
-             <p><a href="">White List</a></p>
-            <p><a href="">Login</a></p>
-            <p><a href="">My Account </a></p>
-            <p><a href="">About</a></p>
-           <p><a href="">Blog</a></p>
-
-          </div> */}
-    </div>
-    <div className="first-col">
+          <div className="col1">
+            <div className="first-col">
    <b> <h3 className='text-light'>Newsletter</h3></b>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, eligendi.</p>
     <input type="text" placeholder='Send Email' className='fs-5 mt-2 mb-2'/>
    <b> <h3 className='pt-3'>We Accept</h3></b>
  <img src="payment-4.png" alt="" className='img-fluid'/>
     </div>
+
+          </div>
+    </div>
+   
   </div>
   
    <div className="ftr">
