@@ -19,7 +19,7 @@ const Animities = () => {
          <div>        
           <div className="animities-card">
            <div className="animities-icon"> <FaCar /></div>
-            <h3>Parking Space </h3>
+            <h5>Parking Space </h5>
 
             <div className='animities-arrow'><a href=""> &rarr; </a></div>
           </div>
@@ -27,7 +27,7 @@ const Animities = () => {
 
         <div className="animities-card">
           <div className="animities-icon"> <FaSwimmingPool /></div>
-          <h3>Swimming Pool</h3>
+          <h5>Swimming Pool</h5>
           <div className='animities-arrow'><a href=""> &rarr; </a></div>
         </div>
          </div>
@@ -36,7 +36,7 @@ const Animities = () => {
      <div>
        <div className="animities-card">
         <div className="animities-icon"> <MdOutlineSecurity /> </div>
-        <h3>Privet Security</h3>
+        <h5>Privet Security</h5>
         <div className='animities-arrow'><a href=""> &rarr; </a></div>
       </div>
     
@@ -45,7 +45,7 @@ const Animities = () => {
 
       <div className="animities-card">
        <div className="animities-icon"> <FaHandHoldingMedical /> </div>
-        <h3>Medical Center</h3>
+        <h5>Medical Center</h5>
 
         <div className='animities-arrow'><a href=""> &rarr; </a></div>
       </div>
@@ -55,14 +55,14 @@ const Animities = () => {
  <div>
    <div className="animities-card">
      <div className="animities-icon">  <MdOutlineLibraryBooks /> </div>
-    <h3>Library Area</h3>
+    <h5>Library Area</h5>
     <div className='animities-arrow'><a href=""> &rarr; </a></div>
   </div>
             
 
   <div className="animities-card">
        <div className="animities-icon"> <IoBedOutline /></div>
-    <h3>King size Beds</h3>
+    <h5>King size Beds</h5>
     <div className='animities-arrow'><a href=""> &rarr; </a></div>
   </div>
           
@@ -71,14 +71,14 @@ const Animities = () => {
        <div className="animities-card">
       <div className="animities-icon">  <HiHomeModern />  </div>
 
-    <h3>smarts Home</h3>
+    <h5>smarts Home</h5>
     <div className='animities-arrow'><a href=""> &rarr; </a></div>
   </div>
           
 
   <div className="animities-card">
    <div className="animities-icon"><FiSliders />  </div>
-    <h3>Flaction-slider</h3>
+    <h5>Flaction-slider</h5>
     <div className='animities-arrow'><a href=""> &rarr; </a></div>
 
   </div>
