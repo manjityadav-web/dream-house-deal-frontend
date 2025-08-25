@@ -654,8 +654,8 @@ flex-wrap: wrap;
  }
 
  .animities-card{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
