@@ -42,7 +42,7 @@ const Footer = () => {
             <p><a href="">Term & Condition</a></p>
             <p><a href="">Promotion</a></p>
           </div>
-          <div className="col1">
+          {/* <div className="col1">
             <h3 className='text-light pb-3'>Customer</h3>
 
              <p><a href="">White List</a></p>
@@ -51,7 +51,7 @@ const Footer = () => {
             <p><a href="">About</a></p>
            <p><a href="">Blog</a></p>
 
-          </div>
+          </div> */}
     </div>
     <div className="first-col">
    <b> <h3 className='text-light'>Newsletter</h3></b>
